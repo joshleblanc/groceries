@@ -1,12 +1,12 @@
 import React from 'react';
 import {Switch, Route} from 'react-router-dom';
-import {Hello} from "./Hello";
+import Welcome from "./pages/Welcome";
 
 export default () => {
   return(
     <Switch>
       <Route path={"/"}>
-        <Hello/>
+        <Welcome />
       </Route>
     </Switch>
   )
